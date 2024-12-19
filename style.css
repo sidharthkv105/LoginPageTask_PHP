@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center; /* Center the button inside the form */
+}
+h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #333;
+}
+.error {
+    color: #ff0000;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: auto; /* Allow the button to size itself */
+    padding: 10px 20px; /* Adjust padding for better proportions */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto; /* Ensure button is horizontally centered if flex is used */
+}
+button:hover {
+    background-color: #0056b3;
+}
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
